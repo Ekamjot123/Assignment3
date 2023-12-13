@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMMON CLOWNFISH</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-image: url(img/wexor-tmg-L-2p8fapOA8-unsplash.jpg);
+        }
+        .outerbox{
+            width: 40%;
+            outline-style: solid;
+            outline-color: black;
+            background-color: rgb(231,230,230);
+            margin: 3% 30%;
+            padding: 0.5% 0 1% 2%;
+        }
+        h2{
+            color: rgb(7, 61, 90);
+        }
+        label{
+            display: inline-block; 
+        }
+       .block1{
+            display: inline-block;
+            width:130px;
+            margin-bottom: 20px;
+        }
+        .block2{
+            display: inline-block;
+            width: 50px;
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="email"]{
+            width: 300px;
+            text-align: center;
+        }
+        .asterik{
+            color: red;
+        }
+        textarea{
+          margin-bottom: 20px;
+        }
+        .textareaa{
+            margin-top: 20px;
+        }
+        .btn{
+            width: 240px;
+            padding: 2px 30px;
+            margin-right:40px ;
+            background-color: rgb(132,150,176);
+            color:rgb(218,223,54);
+            font-weight:bold;
+        }
+    </style>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+
+<body>
+
+    <header class="header">
+        
+        <div class="nav">
+            <a href="index.html">CLOWNFISH</a>
+            <a class="active" href="#home">Home</a>
+            <a href="#About">About</a>
+            <a href="#habitat">habitat</a>
+            
+            <a href="#predators">prey-predators</a>
+            <a href="#honestyDeclaration">honesty-declaration</a>
+            <a href="#gallery">gallery</a>
+            <a href="#contact">Contact</a>
+            
+          </div>
+    </header>
+
+  
+
+    <section id="home">
+        <h2>Welcome to the Common Clownfish Multimedia Website!</h2>
+        <img src="img1.jpg"  alt="Clownfish Image 1">
+        
+    </section>
+
+    <section id="About">
+        <h2>About Common Clownfish</h2>
+        Many different species of fish that inhabit tropical waters go by the term "clown fish." Because they coexist with sea anemones, they are sometimes known as anemone fish. These fish are quite popular in aquariums because of their unique habitat and vibrant colours.
+        The shallow, warm waters of the Pacific and Indian seas are home to clownfish. They live on coral reefs that are home to sea anemones. Every fish establishes a home within the anemone's tentacles, known as the host. One anemone may include a dominant female, her male partner, plus a few juvenile clown fish.
+    </section>
+
+    <section id="habitat">
+        <h2>Habitat</h2>
+        Clownfish are often found in the Indian and Pacific Oceans, particularly the Red Sea and the Great Barrier Reef, in warm tropical and subtropical seas. They live in lagoons and protected coral reefs where they coexist closely with sea anemones. The sea anemone's stinging tentacles shield the clownfish from predators, while the clownfish, in turn, give nourishment and defence by chasing away fish that consume polyps. Clownfish and sea anemones have a special link that is essential to their existence and distinguishes their habitat.
+       
+        
+    </section>
+
+
+    
+
+    <section id="predators">
+        <h2>Prey & Predators</h2>
+        <h3>
+        Prey of Clownfish:</h3>
+
+       => Small Invertebrates: Clownfish feed on small invertebrates such as crustaceans, worms, and zooplankton.
+        
+       => Planktonic Organisms: In their larval stage, clownfish consume tiny planktonic organisms like copepods.
+        
+        <h3>Predators of Clownfish:</h3>
+        
+        => Larger Fish: Clownfish can be preyed upon by larger fish species in areas where they lack the protection of sea anemones.
+        
+        => Crustaceans: Larger crustaceans, including crabs, may pose a threat to clownfish, particularly in habitats without sea anemones.
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+
+    <h3>Below are few pictures and videos of Clownfish.</h3>
+
+     
+        <img src="img2.jpg" alt="Clownfish Image 3">
+        <img src="img3.jpg" alt="Clownfish Image 4">
+
+       
+        <video width="400" height="400" controls>
+            <source src="video1.mp4" type="video/mp4">
+           
+        </video>
+
+        <video width="400" height="400" controls>
+            <source src="video2.mp4" type="video/mp4">
+            
+        </video>
+
+        <video width="400" height="400" controls>
+            <source src="video3.mp4" type="video/mp4">
+            
+        </video>
+
+        <video width="400" height="400" controls>
+            <source src="video4.mp4" type="video/mp4">
+            
+        </video>
+    </section>
+
+ 
+    <section id="honestyDeclaration">
+        <h2>Honesty Declaration</h2>
+        Our goal is to give trustworthy and accurate information on typical clownfish. The information on this website is based on careful investigation and accurate facts because we value honesty and openness. Although we make every effort to maintain the information current, we recognise that marine environments are dynamic. We value preserving the integrity of our content and welcome user feedback for any required changes or adjustments. Users acknowledge that the information on this website is intended for informative and educational purposes by using it. Any actions you take in response to the information provided are not within our control. We appreciate you using us as a reliable source of information on common clownfish.
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="outerbox">
+            <h2>Contact Us</h2>
+            
+          
+            <form action="https://formspree.io/f/xknljvap" method="post" onsubmit="validate()">
+        
+                <label for="fname" class="block1">First Name  <span class="asterik">*</span></label>
+                <input type="text" name="fname" id="fname" placeholder="First Name" required minlength="5"> <br>
+               
+                <label for="lname" class="block1">Last Name <span class="asterik">*</span></label>
+                <input type="text" name="lname" id="lname" placeholder="Last name" required minlength="5"> <br>
+                <label for="Email" class="block1">Email Address <span class="asterik">*</span></label>
+                <input type="email" name="Email" id="Email" placeholder="Email" required> <br>
+                <label for="Phone" class="block1">Phone:</label>
+                <input type="tel" name="Phone" id="Phone" placeholder="Phone Details" required > <br>
+                <label for="Date" class="block1">Date:</label>
+                <input type="text" id="date" name="date" placeholder="dd/mm/yy" required pattern="\d{1,2}/\d{1,2}/\d{2}"> <br>
+                <label for="message" class="block1">Message:</label>
+                <textarea name="message" id="message" cols="70" rows="10"></textarea required minlength="50">
+
+              
+               
+            
+         
+        
+        
+         
+            <!--Submit button-->
+               <input type="submit" class="btn" value="Submit">
+                
+               
+                        
+                   
+                      
+                        
+                   
+        
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer>
+
+        &copy; 2023 Common Clownfish Multimedia
+    </footer>
+     
+    <script>
+        function validate(){
+    var name = document.getElementById("name").value;
+    var subject = document.getElementById("subject").value;
+    var phone = document.getElementById("phone").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    var error_message = document.getElementById("error_message");
+    
+    error_message.style.padding = "10px";
+    
+    var text;
+    if(name.length < 5){
+      text = "Please Enter valid Name";
+      error_message.innerHTML = text;
+      return false;
+    }
+    if(name.length < 5){
+      text = "Please Enter valid Name";
+      error_message.innerHTML = text;
+      return false;
+    }
+    
+    if(isNaN(phone) || phone.length != 10){
+      text = "Please Enter valid Phone Number";
+      error_message.innerHTML = text;
+      return false;
+    }
+    if(email.indexOf("@") == -1 || email.length < 6){
+      text = "Please Enter valid Email";
+      error_message.innerHTML = text;
+      return false;
+    }
+    if(message.length <= 50){
+      text = "Please Enter More Than 50 Characters";
+      error_message.innerHTML = text;
+      return false;
+    }
+    alert("Form Submitted Successfully!");
+    return true;
+  }
+    </script>
+    <script>
+        $(document).ready(function() {
+            // Assuming your navigation bar has the class 'navbar', you can use the following code
+            $('.nav').css('position', 'fixed');
+        });
+        </script>
+
+</body>
+
+</html>

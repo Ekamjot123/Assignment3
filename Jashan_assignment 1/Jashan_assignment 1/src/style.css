@@ -1,0 +1,105 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6dd2df;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+  
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #81baf2;
+    padding: 0.5em 1.5em;
+    margin-top: 0;
+    width: 100%;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #dbab0c;
+}
+#home{
+  padding-top: 5%;
+}
+section {
+    padding-top: 5%;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add some color to the content */
+h2 {
+    color: #af4c87;
+}
+
+#home img {
+    margin-left: 30%;
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+#habitat img {
+    margin-top: 1em;
+    margin-left: 30%;
+    max-width: 50%;
+    height: 800px;
+    margin-bottom: 1em;
+}
+
+#gallery img {
+    margin-left: 30%;
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+#gallery video {
+    margin-left: 15%;
+    
+  
+    margin-bottom: 1em;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #4CAF50;
+}
+ img{
+
+	transition: transform 0.5s ease-in-out;
+ }
+  img:hover {
+    transform: scale(1.1);
+}

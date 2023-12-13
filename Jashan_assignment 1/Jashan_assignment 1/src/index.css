@@ -1,0 +1,22 @@
+.nav a {
+  color: #FF9800;
+}
+
+.nav a:hover {
+  color: #ffffff;
+}
+
+.outerbox {
+  outline: dashed;
+}
+
+.btn {
+  text-transform: uppercase;
+  position: relative;
+  background-color: red;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+}/*# sourceMappingURL=index.css.map */
